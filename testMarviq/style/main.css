@@ -1,0 +1,16 @@
+.title{
+    text-align: center;
+};
+
+#status {
+    background:pink;
+}
+#status > p:nth-child(1){
+    color: orange;
+}
+#status > p:nth-child(2){
+    color: red;
+}
+#status > p:last-child{
+    color: green;
+}
